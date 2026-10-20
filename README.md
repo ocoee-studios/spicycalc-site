@@ -39,7 +39,7 @@ Original branding and artwork are owned by Ocoee Studios LLC.
 
 ## Feature and background update
 
-The footer now uses the actual logo. A low-opacity stationary logo sits behind the scrolling content. The expanded feature inventory is grounded in CalculatorScreen, BlendStudioScreen, ClassroomScreen, MoreScreen, ExportsScreen, PrivacyVaultScreen, and the app screen inventory. Academy is the website learning category; app versions may label this Education or Lab Math Concepts. No exact peptide count, scientific claim, or recommended dosing protocol is advertised.
+The footer now uses the actual logo. The full logo artwork fills a stationary background layer. A separate translucent page sheet scrolls above it. The expanded feature inventory is grounded in CalculatorScreen, BlendStudioScreen, ClassroomScreen, MoreScreen, ExportsScreen, PrivacyVaultScreen, and the app screen inventory. Academy is the website learning category; app versions may label this Education or Lab Math Concepts. No exact peptide count, scientific claim, or recommended dosing protocol is advertised.
 
 ## Studio-inspired visual treatment
 
