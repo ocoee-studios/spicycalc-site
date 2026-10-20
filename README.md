@@ -48,3 +48,7 @@ The bright SpicyCalc palette now uses the layered structure of the Ocoee Studios
 ## Screens and TV support
 
 Required across phones, tablets, computers, and TV browsers. See [responsive acceptance checks](deploy/RESPONSIVE.md). Large-display scaling and narrow-screen safeguards are included; the actual browser/TV test matrix remains a release check.
+
+## Approved logo
+
+Use the current App Store pepper/molecule/calculator icon without a SpicyCalc wordmark below it, confirmed by Jamie on October 19, 2026. It is used for the header, footer, favicon, social artwork, and fixed page background. The older logo with a built-in bottom wordmark is superseded.
