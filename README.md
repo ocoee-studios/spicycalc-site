@@ -44,3 +44,7 @@ The footer now uses the actual logo. The full logo artwork fills a stationary ba
 ## Studio-inspired visual treatment
 
 The bright SpicyCalc palette now uses the layered structure of the Ocoee Studios website: a fixed branded backdrop, distinct translucent content panels, stronger section boundaries, warm feature surfaces, and framed product screenshots. Reference: `ocoee-studios/website` StudioPage.tsx, StudioBackground.tsx, GlassPanel.tsx, and the public https://ocoeestudios.com/ website. The studio artwork and dark palette were not copied into SpicyCalc.
+
+## Screens and TV support
+
+Required across phones, tablets, computers, and TV browsers. See [responsive acceptance checks](deploy/RESPONSIVE.md). Large-display scaling and narrow-screen safeguards are included; the actual browser/TV test matrix remains a release check.
