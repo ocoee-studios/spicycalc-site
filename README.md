@@ -40,3 +40,7 @@ Original branding and artwork are owned by Ocoee Studios LLC.
 ## Feature and background update
 
 The footer now uses the actual logo. A low-opacity stationary logo sits behind the scrolling content. The expanded feature inventory is grounded in CalculatorScreen, BlendStudioScreen, ClassroomScreen, MoreScreen, ExportsScreen, PrivacyVaultScreen, and the app screen inventory. Academy is the website learning category; app versions may label this Education or Lab Math Concepts. No exact peptide count, scientific claim, or recommended dosing protocol is advertised.
+
+## Studio-inspired visual treatment
+
+The bright SpicyCalc palette now uses the layered structure of the Ocoee Studios website: a fixed branded backdrop, distinct translucent content panels, stronger section boundaries, warm feature surfaces, and framed product screenshots. Reference: `ocoee-studios/website` StudioPage.tsx, StudioBackground.tsx, GlassPanel.tsx, and the public https://ocoeestudios.com/ website. The studio artwork and dark palette were not copied into SpicyCalc.
