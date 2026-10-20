@@ -36,3 +36,7 @@ Content grounding (October 19, 2026):
 JavaScript syntax, feature-switcher and keyboard behavior, direct section-navigation behavior, local assets, anchor targets, unique IDs, and link destinations are checked. Browser layout QA and the actual Podman/Nginx container build still require Alex's environment; this workspace has no supported browser or container runtime. Validate the deployed domain and HTTPS after routing.
 
 Original branding and artwork are owned by Ocoee Studios LLC.
+
+## Feature and background update
+
+The footer now uses the actual logo. A low-opacity stationary logo sits behind the scrolling content. The expanded feature inventory is grounded in CalculatorScreen, BlendStudioScreen, ClassroomScreen, MoreScreen, ExportsScreen, PrivacyVaultScreen, and the app screen inventory. Academy is the website learning category; app versions may label this Education or Lab Math Concepts. No exact peptide count, scientific claim, or recommended dosing protocol is advertised.
