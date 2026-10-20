@@ -1,6 +1,8 @@
 "use strict";
+function initializeSpicyCalc(){
+"use strict";
 const features = {
- calculate:{symbol:"÷",kicker:"CALCULATE",title:"Bring the arithmetic together.",copy:"Explore concentration and volume arithmetic, vial quantity estimates, and other calculation tools using the values you enter.",foot:"Educational arithmetic only. Independently verify inputs, units, and results."},
+ calculate:{symbol:"÷",kicker:"CALCULATE",title:"Peptide calculations, organized.",copy:"Explore peptide reconstitution, concentration and volume arithmetic, multi-peptide blends, and vial quantity estimates using the values you enter.",foot:"Educational arithmetic only. Independently verify inputs, units, and results."},
  track:{symbol:"≈",kicker:"TRACK",title:"Small entries. Less scattered.",copy:"Keep water, nutrition, fitness, and body-metric entries together. Come back to a familiar place for the daily details you choose to record.",foot:"General wellness records. Tracking tools do not diagnose or treat health conditions."},
  organize:{symbol:"+",kicker:"ORGANIZE",title:"A home for your personal records.",copy:"Keep your calendar records and saved configurations close to the calculation tools you use, so you can return to your own information.",foot:"Personal records are stored on your device. Review the app privacy policy for details."}
 };
@@ -29,3 +31,8 @@ document.getElementById("screenshot-close").addEventListener("click",()=>screens
 screenshotZoom.addEventListener("click",()=>{const zoomed=screenshotCanvas.classList.toggle("is-zoomed");screenshotZoom.setAttribute("aria-pressed",String(zoomed));screenshotZoom.textContent=zoomed?"Fit width":"Enlarge";});
 screenshotDialog.addEventListener("close",()=>{if(screenshotTrigger)screenshotTrigger.focus({preventScroll:true});});
 screenshotDialog.addEventListener("click",event=>{if(event.target===screenshotDialog){const rect=screenshotDialog.getBoundingClientRect();if(event.clientX<rect.left||event.clientX>rect.right||event.clientY<rect.top||event.clientY>rect.bottom)screenshotDialog.close();}});
+
+}
+if(document.readyState === "loading"){
+ document.addEventListener("DOMContentLoaded",initializeSpicyCalc,{once:true});
+}else{initializeSpicyCalc();}
