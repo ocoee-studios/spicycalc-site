@@ -34,3 +34,6 @@ img,svg{max-width:100%}.hero>* ,.explorer>*,.privacy>*,.faq>*,.lifetime>*,.welln
 .store-button.google{background:#fff;color:#242321;border:1px solid #d9bda5}.store-button.google:hover{background:#f5ebe0}.store-button.google svg{width:22px;height:22px}
 .closing-buttons{display:flex;gap:16px;align-items:center;justify-content:center;flex-wrap:wrap;margin-bottom:8px}
 @media(max-width:700px){.closing-buttons{gap:12px}.closing-buttons .store-button{font-size:18px;padding:10px 13px}}
+
+.nav-get{position:relative}.nav-get>.button.compact{cursor:pointer;border:0;background:var(--ink,#2c2520);color:#fff;font-size:12px;padding:10px 18px;border-radius:7px}.nav-stores{display:none;position:absolute;right:0;top:calc(100% + 8px);background:#fff;border:1px solid #e5ddd3;border-radius:12px;box-shadow:0 12px 32px #2c252014;padding:8px;min-width:170px;z-index:10;flex-direction:column;gap:4px}.nav-get.open .nav-stores{display:flex}.nav-stores a{display:block;padding:11px 16px;border-radius:8px;font-size:13px;font-weight:600;white-space:nowrap;transition:background .15s}.nav-stores a:hover{background:#f5f0e8}
+@media(max-width:800px){.nav-get{width:100%}.nav-get>.button.compact{width:100%;text-align:center}.nav-stores{position:static;border:0;box-shadow:none;padding:4px 0 0;min-width:0}.nav-get.open .nav-stores{display:flex}}

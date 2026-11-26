@@ -36,3 +36,6 @@ screenshotDialog.addEventListener("click",event=>{if(event.target===screenshotDi
 if(document.readyState === "loading"){
  document.addEventListener("DOMContentLoaded",initializeSpicyCalc,{once:true});
 }else{initializeSpicyCalc();}
+
+/* Header store dropdown */
+(function(){var g=document.querySelector(".nav-get");if(!g)return;var b=g.querySelector("button");b.addEventListener("click",function(e){e.stopPropagation();var open=g.classList.toggle("open");b.setAttribute("aria-expanded",open);});document.addEventListener("click",function(e){if(!g.contains(e.target)){g.classList.remove("open");b.setAttribute("aria-expanded","false");}});})();
